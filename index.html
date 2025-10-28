@@ -3,51 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-       .card1{
-         width: 300px;
-         height: 180px;
-         background-color: rgb(62, 142, 245);
-         border-radius: 20px;
-         border: 1px solid white;
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 16px;
-         color: white;
-       }
-       .card2{
-        width: 300px;
-         height: 180px;
-         background-color: rgb(62, 142, 245);
-         border-radius: 20px;
-         border: 1px solid white);
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 16px;
-         color: rgb(0, 0, 0);
-       }
-       h3{
+    <title>Doc</title>
+    <link rel="stylesheet" href="styles.css">
+   <style>
+    div{
+        margin:0px;
         padding: 10px;
-       }
-       h4, p{
-        padding-left: 10px;
-       }
-    </style>
+    }
+    .card img{
+        width: 10px;
+        height: 10px;
+    }
+    image :hover{
+        transform: scale(1.2);
+    }
+.cards{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid: 40px;
+    max-width: 120px;
+    margin: auto;
+}
+div{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+    
+   </style>
 </head>
+
 <body>
-    <div style="display: flex;">
-        <div class="card1">
-        <h3>PRE-BOOK OFFER</h3>
-        <p>
-        <strong>FLAT 15% OFF</strong><br>
-        Valid from 12PM to 11:30Pm<br>
-        today<br>
-        Booking required</p>
-    </div>
-        <div class="card2">
-        <h3>INSTANT OFFER</h3>
-        <p>FLAT 10% OFF</p>
+    <section>
+            
+            <div style="display:flex;">
+            <img src="./dog.webp" height="200px" width="200px" alt="dog image"/>
+            <img src="./mickey.jpeg" height="200px" width="200px" alt="mickey image"/>
+            <img src="./jerry.jpeg" height="200px" width="200px"/>
+            <img src="./img.jpg" height="200px" width="200px"/>
+        
+        
         </div>
-    </div>
+    </section>
 
 </body>
 </html>
